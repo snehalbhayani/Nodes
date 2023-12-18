@@ -75,7 +75,7 @@ module.exports={
             },
             {
                 test: /\.(css|less)$/,
-                use: ["css-loader"]
+                use: [ { loader: "style-loader", options: { injectType: "styleTag" } }, "css-loader"]
             }
         ]
     }

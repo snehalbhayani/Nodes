@@ -1,0 +1,40 @@
+div {
+  display: inline-block;
+ 
+  vertical-align: middle;
+}
+
+.debugBorder {
+  border: 1px solid red;
+}
+.profile{
+  width: 20%;
+  vertical-align: middle;
+}
+#photo {
+  display: inline-block;
+  width: 40%; /*Optional*/
+}
+
+.txtarea {
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+}
+
+#menu {
+  width: 50%;
+}
+.Row {
+  display: inline-block;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+  background-color: rgb(230, 220, 220); /*Optional*/
+}
