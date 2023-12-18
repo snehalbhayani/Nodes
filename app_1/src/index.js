@@ -1,9 +1,10 @@
 import React, { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot } from 'react-dom/client';
 // import "./styles.css";
 
-import App from "./src/App";
-import Menubar from "./src/Menubar";
+import App from "./App";
+import Menubar from "./Menubar";
+
 
 const photo = createRoot(document.getElementById("photo"));
 photo.render(
